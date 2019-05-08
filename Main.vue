@@ -31,8 +31,9 @@ grid layout
       keywords:
         auto-fill, auto-fit, max-content, min-content
       functions:
-        minmax, fit-content, repeat
-
+        minmax(x, y) :=  if x > y　then x else y
+          (x, y): length(eg.200px), 15%, 3.2fr, max-content, min-content, auto
+        fit-content, repeat
     alignment:
       place-items:
         justify-items:
