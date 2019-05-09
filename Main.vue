@@ -33,8 +33,12 @@ grid layout
       functions:
         minmax(x, y) :=  if x > y　then x else y
           (x, y): length(eg.200px), 15%, 3.2fr, max-content, min-content, auto
-        fit-content, repeat
+        fit-content(val) := min(max-content, max(min-content, val))
+        repeat
     alignment:
+      grid-gap: shorthand
+        grid-column-gap
+        grid-row-gap
       place-items:
         justify-items:
         align-items:
@@ -50,9 +54,6 @@ grid layout
         grid-row-start
         grid-row-end
     alignment
-      grid-gap: shorthand
-        grid-column-gap
-        grid-row-gap
       place-self: shorthand
         justify-self:
         align-self:
