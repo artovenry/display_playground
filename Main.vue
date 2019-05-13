@@ -39,7 +39,7 @@ grid layout
       grid-gap: shorthand
         grid-column-gap
         grid-row-gap
-      place-items:
+      place-items: shorthand
         justify-items:
         align-items:
       place-content: shorthand
