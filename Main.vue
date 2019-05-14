@@ -31,6 +31,7 @@ grid layout
       keywords:
         auto-fill, auto-fit, max-content, min-content
       functions:
+        このふたつ、定義が違う
         minmax(x, y) :=  if x > y　then x else y
           (x, y): length(eg.200px), 15%, 3.2fr, max-content, min-content, auto
         fit-content(val) := min(max-content, max(min-content, val))
